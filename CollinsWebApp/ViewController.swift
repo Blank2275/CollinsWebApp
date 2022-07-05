@@ -11,6 +11,7 @@ import FirebaseFirestore
 class ViewController: UIViewController {
 
     @IBOutlet weak var needsHelpCirlceView: UIView!
+    @IBOutlet weak var switchNeedsHelpBool: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +23,14 @@ class ViewController: UIViewController {
         colorCirlce()
         
         Firestore.firestore().collection("test").document("oof").addSnapshotListener({ documentSnapshot, error in
-            print("run")
             self.colorCirlce()
         })
+    }
+    
+    @IBAction func toggleNeedsHelp(_ sender: UISwitch) {
+        Firestore.firestore().collection("test").document("oof").setData([
+            "needsHelp": switchNeedsHelpBool.isOn
+        ])
     }
     
     func colorCirlce(){
