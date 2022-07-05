@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>225971800247-c34jlqqa8ct77t8j6qbkv69qgkntegas.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.225971800247-c34jlqqa8ct77t8j6qbkv69qgkntegas</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASiJ1UL4aa-7xa8RRYloTJQ2fP7w2QKUg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>225971800247</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Futures-Lab.CollinsWebApp</string>
+	<key>PROJECT_ID</key>
+	<string>collinswebapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>collinswebapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:225971800247:ios:c2e21e01cf60bd87bfa532</string>
+</dict>
+</plist>
